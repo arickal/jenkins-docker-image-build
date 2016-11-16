@@ -1,5 +1,5 @@
-FROM centos7
+FROM centos:7
 
-RUN mkdir /userap
+RUN mkdir /userap/qqqq
 
 CMD ["/bin/bash"]
